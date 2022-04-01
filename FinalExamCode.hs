@@ -1,6 +1,3 @@
---Name: Ajay Mahendra Mehra 
---Roll No: 21112002
-
 consecutiveJumps :: Int -> [Int] -> Int -> [Int]
 consecutiveJumps n [] k = []
 consecutiveJumps n ls k | (head ls) == k = cmp k (tail ls)
